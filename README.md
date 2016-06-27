@@ -20,4 +20,15 @@ $ git config --global core.editor vim
 $ git config --global core.excludesfile ~/.gitignore_global
 ```
 
+##copy하기
 
+```
+$ cp ~/.vimrc ~/.dotfiles/
+$ cp ~/.gitignore_global ~/.dotfiles/
+$ cp ~/.gitconfig ~/.dotfiles
+$ cp ~/.zshrc ~/.dotfiles
+$ cp ~/.bash_profile ~/.dotfiles
+$ cp ~/.bashrc ~/.dotfiles
+```
+
+처음 셋팅할때 요렇게 복사해서 따로 모아둠
