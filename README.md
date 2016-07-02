@@ -10,7 +10,6 @@ ln -s .dotfiles/.zshrc ~/.zshrc
 ```
 vim theme만 따로!
 
-bash_profile, bashrc도 있지만 이건 그냥 복붙 ㄱㄱ
 
 ##git config
 ```
