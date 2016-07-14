@@ -23,6 +23,7 @@ set t_Co=256
 
 set softtabstop=4                             
 set expandtab                                 
+set backspace=2
 
 " ---- color schem
 set background=dark
@@ -105,6 +106,14 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 Bundle 'mattn/webapi-vim'
 Bundle 'mattn/gist-vim'
+
+" less syntax
+Plugin 'groenewege/vim-less'
+
+augroup VimCSS3Syntax
+    autocmd!
+    autocmd FileType css setlocal iskeyword+=-
+augroup END
 
 "Shortcut Matching 
 nmap <F7> :NERDTree<CR>

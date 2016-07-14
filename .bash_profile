@@ -1,9 +1,3 @@
-alias aws_ko='ssh -i "/Users/yevgnenll/dev/server_/seungkwon.pem" ubuntu@ec2-52-79-100-122.ap-northeast-2.compute.amazonaws.com'
-alias fc_linux='ssh 10.211.55.11'
-alias linux='ssh -p 3022 yevgnenll@127.0.0.1'
-alias vas='vagrant'
-alias fast='cd /Users/yevgnenll/PycharmProjects/fcwps1'
-
 export PATH=${PATH}:/usr/local/bin/node
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
@@ -54,21 +48,23 @@ export PATH
 
 # Setting PATH for Python 3.4
 # The orginal version is saved in .bash_profile.pysave
-PATH="/Library/Frameworks/Python.framework/Versions/3.4/bin:${PATH}"
+# PATH="/Library/Frameworks/Python.framework/Versions/3.4/bin:${PATH}"
 export PATH
 #export PYENV_ROOT="$HOME/.pyenv"
 #export PATH="$PYENV_ROOT/bin:$PATH"
 export VISUAL=VIM
 export EDITOR="$VISUAL"
 
-eval "$(pyenv init -)"
-source /usr/local/opt/autoenv/activate.sh
+# eval "$(pyenv init -)"
+# source /usr/local/opt/autoenv/activate.sh
 
 
 #--------- vim plugin
-source ~/.shell_prompt.sh
+# source ~/.shell_prompt.sh
 
 # Setting PATH for Python 3.5
 # The orginal version is saved in .bash_profile.pysave
 PATH="/Library/Frameworks/Python.framework/Versions/3.5/bin:${PATH}"
+PATH="/usr/local/bin/node:${PATH}"
+PATH="/usr/local/bin/npm:${PATH}"
 export PATH
