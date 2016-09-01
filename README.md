@@ -30,4 +30,6 @@ $ cp ~/.bash_profile ~/.dotfiles
 $ cp ~/.bashrc ~/.dotfiles
 ```
 
+[tmux ctrl + b -> capslock 설정](https://gist.github.com/burtlo/3788048)
+
 처음 셋팅할때 요렇게 복사해서 따로 모아둠
