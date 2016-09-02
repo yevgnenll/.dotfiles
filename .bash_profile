@@ -50,13 +50,13 @@ export PATH
 # The orginal version is saved in .bash_profile.pysave
 # PATH="/Library/Frameworks/Python.framework/Versions/3.4/bin:${PATH}"
 export PATH
-#export PYENV_ROOT="$HOME/.pyenv"
-#export PATH="$PYENV_ROOT/bin:$PATH"
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
 export VISUAL=VIM
 export EDITOR="$VISUAL"
 
-# eval "$(pyenv init -)"
-# source /usr/local/opt/autoenv/activate.sh
+eval "$(pyenv init -)"
+source /usr/local/opt/autoenv/activate.sh
 
 
 #--------- vim plugin
@@ -67,4 +67,5 @@ export EDITOR="$VISUAL"
 PATH="/Library/Frameworks/Python.framework/Versions/3.5/bin:${PATH}"
 PATH="/usr/local/bin/node:${PATH}"
 PATH="/usr/local/bin/npm:${PATH}"
+PATH="/usr/local/mysql/bin:${PATH}"
 export PATH

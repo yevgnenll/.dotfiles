@@ -4,3 +4,4 @@
 *.swo
 npm-debug.log
 config.codekit
+.env

@@ -25,6 +25,8 @@ set softtabstop=4
 set expandtab                                 
 set backspace=2
 
+set noai nosi hls is ic cf ws scs magic
+
 " ---- color schem
 set background=dark
 colorscheme hybrid
