@@ -24,6 +24,8 @@ set t_Co=256
 set softtabstop=4                             
 set expandtab                                 
 
+set noai nosi hls is ic cf ws scs magic
+
 " ---- color schem
 set background=dark
 colorscheme hybrid
@@ -148,3 +150,5 @@ let g:user_emmet_settings = {'variables' : {'lang':'ko-KR' }}
 autocmd FileType python setlocal sts=0 sw=4 ts=4
 autocmd FileType html setlocal ts=4 sts=4 sw=4
 autocmd FileType javascript setlocal ts=4 sts=4 sw=4
+
+finish
