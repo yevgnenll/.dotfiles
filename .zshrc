@@ -82,5 +82,11 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-ZSH_THEME="agnoster"
+# ZSH_THEME="powerline"
+ZSH_THEME="agnoster" 
+TERM="xterm-256color"
+POWERLINE_RIGHT_B="none"
+
+export TERM=$TERM
+
 source ~/.bash_profile
