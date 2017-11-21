@@ -159,7 +159,7 @@ let g:hybrid_termcolors = 256  " New line!!
 let g:user_emmet_settings = {'variables' : {'lang':'ko-KR' }}
 
 autocmd FileType python setlocal sts=0 sw=4 ts=4
-autocmd FileType html setlocal ts=4 sts=4 sw=4
-autocmd FileType javascript setlocal ts=4 sts=4 sw=4
+autocmd FileType html setlocal ts=2 sts=2 sw=2
+autocmd FileType javascript setlocal ts=2 sts=2 sw=2
 
 finish
