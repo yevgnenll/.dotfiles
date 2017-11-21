@@ -13,7 +13,14 @@ ln -s .dotfiles/.gitignore_global ~/.gitignore_global
 ln -s .dotfiles/.gitconfig ~/.gitconfig
 ln -s .dotfiles/.zshrc ~/.zshrc
 ```
-vim theme만 따로!
+vim theme hybrid
+
+```
+$ git clone https://github.com/w0ng/vim-hybrid.git
+$ mkdir .vim/colors
+$ mv .vim/colors/hybrid.vim ~/.vim/colors/hybrid.vim
+```
+
 
 
 ## git config
