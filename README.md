@@ -18,7 +18,7 @@ vim theme hybrid
 ```
 git clone https://github.com/w0ng/vim-hybrid.git
 mkdir .vim/colors
-mv .vim-hybrid/colors/hybrid.vim ~/.vim/colors/hybrid.vim
+mv ~/vim-hybrid/colors/hybrid.vim ~/.vim/colors/hybrid.vim
 ```
 
 
