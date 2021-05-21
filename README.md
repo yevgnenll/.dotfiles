@@ -45,3 +45,11 @@ $ cp ~/.bashrc ~/.dotfiles
 [tmux ctrl + b -> capslock 설정](https://gist.github.com/burtlo/3788048)
 
 처음 셋팅할때 요렇게 복사해서 따로 모아둠
+
+## ` 기호가 안나올 때
+
+```
+curl -sSL https://gist.githubusercontent.com/redism/43bc51cab62269fa97a220a7bb5e1103/raw/0d55b37b60e0e0bd3d0d7f53995de0a722f9820c/kr_won_to_backquote.sh | sh
+```
+
+[참조](https://ohseyong.github.io/macos/won-to-backquote/)
