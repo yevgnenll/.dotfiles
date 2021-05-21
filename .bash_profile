@@ -56,7 +56,6 @@ export VISUAL=VIM
 export EDITOR="$VISUAL"
 
 eval "$(pyenv init -)"
-source /usr/local/opt/autoenv/activate.sh
 
 
 #--------- vim plugin
@@ -69,3 +68,4 @@ PATH="/usr/local/bin/node:${PATH}"
 PATH="/usr/local/bin/npm:${PATH}"
 PATH="/usr/local/mysql/bin:${PATH}"
 export PATH
+alias k='kubectl'

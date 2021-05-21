@@ -49,7 +49,18 @@ export PATH="/Library/Frameworks/Python.framework/Versions/3.5/bin:/Users/yevgne
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git wd)
+plugins=(
+    git
+    wd
+    bundler
+    dotenv
+    osx
+    rake
+    rbenv
+    ruby
+    zsh-syntax-highlighting
+    zsh-autosuggestions
+)
 
 # User configuration
 
@@ -88,5 +99,6 @@ TERM="xterm-256color"
 POWERLINE_RIGHT_B="none"
 
 export TERM=$TERM
+export PATH=/opt/homebrew/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/Users/yevgnenll/.pyenv/shims:/Library/Frameworks/Python.framework/Versions/3.4/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/Users/yevgnenll/.rvm/gems/ruby-2.0.0-p643/bin:/Users/yevgnenll/.rvm/gems/ruby-2.0.0-p643@global/bin:/Users/yevgnenll/.rvm/rubies/ruby-2.0.0-p643/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin/npm:/usr/local/bin/node:/usr/local/git/bin:/usr/local/go/bin:/usr/local/bin/node:/Users/yevgnenll/.rvm/bin:/usr/local/go/bin
 
-source ~/.bash_profile
+eval $(/opt/homebrew/bin/brew shellenv)
