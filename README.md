@@ -25,7 +25,7 @@ mv ~/vim-hybrid/colors/hybrid.vim ~/.vim/colors/hybrid.vim
 
 ## git config
 ```
-$ git config --global user.name "seungkwon"
+$ git config --global user.name "yevgnenll"
 $ git config --global user.email yevgnenll@gmail.com 
 $ git config --global core.editor vim
 $ git config --global core.excludesfile ~/.gitignore_global
@@ -60,8 +60,10 @@ curl -sSL https://gist.githubusercontent.com/redism/43bc51cab62269fa97a220a7bb5e
 
 ### plugin
 
+```
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
+```
 
 ## system util
 
