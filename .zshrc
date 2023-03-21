@@ -1,3 +1,5 @@
+# Fig pre block. Keep at the top of this file.
+[[ -f "$HOME/.fig/shell/zshrc.pre.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.pre.zsh"
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/yevgnenll/.oh-my-zsh
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
@@ -53,8 +55,7 @@ plugins=(
     git
     wd
     bundler
-    dotenv
-    osx
+    macos
     rake
     rbenv
     ruby
@@ -102,3 +103,12 @@ export TERM=$TERM
 export PATH=/opt/homebrew/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/Users/yevgnenll/.pyenv/shims:/Library/Frameworks/Python.framework/Versions/3.4/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/Users/yevgnenll/.rvm/gems/ruby-2.0.0-p643/bin:/Users/yevgnenll/.rvm/gems/ruby-2.0.0-p643@global/bin:/Users/yevgnenll/.rvm/rubies/ruby-2.0.0-p643/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin/npm:/usr/local/bin/node:/usr/local/git/bin:/usr/local/go/bin:/usr/local/bin/node:/Users/yevgnenll/.rvm/bin:/usr/local/go/bin
 
 eval $(/opt/homebrew/bin/brew shellenv)
+export PATH=/opt/homebrew/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/Users/yevgnenll/.pyenv/shims:/Library/Frameworks/Python.framework/Versions/3.4/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/Users/yevgnenll/.rvm/gems/ruby-2.0.0-p643/bin:/Users/yevgnenll/.rvm/gems/ruby-2.0.0-p643@global/bin:/Users/yevgnenll/.rvm/rubies/ruby-2.0.0-p643/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin/npm:/usr/local/bin/node:/usr/local/git/bin:/usr/local/go/bin:/usr/local/bin/node:/Users/yevgnenll/.rvm/bin:/usr/local/go/bin
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
+
+source /Users/yevgnenll/.docker/init-zsh.sh || true # Added by Docker Desktop
+
+# Fig post block. Keep at the bottom of this file.
+[[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.post.zsh"
