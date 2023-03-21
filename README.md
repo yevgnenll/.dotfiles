@@ -53,3 +53,16 @@ curl -sSL https://gist.githubusercontent.com/redism/43bc51cab62269fa97a220a7bb5e
 ```
 
 [참조](https://ohseyong.github.io/macos/won-to-backquote/)
+
+# iTersm
+
+## oh my zh
+
+### plugin
+
+git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
+
+## system util
+
+![image](./iterms_system_til.png)
