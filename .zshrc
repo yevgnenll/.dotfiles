@@ -107,3 +107,9 @@ export PATH="$PATH:$HOME/.rvm/bin"
 
 # Fig post block. Keep at the bottom of this file.
 [[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.post.zsh"
+
+eval "$(/opt/homebrew/bin/brew shellenv)"
+export PYENV_ROOT="$HOME/.pyenv"
+command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+source /opt/homebrew/opt/autoenv/activate.sh
